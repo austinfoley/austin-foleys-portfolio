@@ -7,11 +7,12 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Austin is always ready to bring out the best in others through his work. 
+        As he steps into web development, he brings skills honed as a music 
+        producer—adapting quickly to new tools, solving problems creatively, and organizing information to tell a clear story. 
+        He focuses on frontend development and content management, using tools like 
+        Sitecore and Next.js to build fast, user-centered experiences. As a collaborator, he values trust, 
+        communication, and flexibility—essentials for creating meaningful digital products.`}
       </p>
       <div className="my-8">
         <BlogPosts />
