@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Welcome to Austin Foley's Portfolio
       </h1>
       <p className="mb-4">
         {`Austin is always ready to bring out the best in others through his work. 
