@@ -91,7 +91,7 @@ export default function Blog({ params }) {
         </p>
       </div>
       <article className="prose">
-        <CustomMDX source={post.content} />
+        <pre>{post.content}</pre>
       </article>
     </section>
   )
