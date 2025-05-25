@@ -10,6 +10,9 @@ const navItems = {
   '/projects': {
     name: 'education',
   },
+    '/skills': {
+    name: 'skills',
+  },
 }
 
 export function Navbar() {
