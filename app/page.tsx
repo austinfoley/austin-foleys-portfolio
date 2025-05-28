@@ -14,6 +14,9 @@ export default function Page() {
         Sitecore and Next.js to build fast, user-centered experiences. As a collaborator, he values trust, 
         communication, and flexibility—essentials for creating meaningful digital products.`}
       </p>
+            <h2 className="mb-8 text-2xl font-semibold tracking-tighter">
+        Learn about what I'm working on:
+      </h2>
       <div className="my-8">
         <BlogPosts />
       </div>
