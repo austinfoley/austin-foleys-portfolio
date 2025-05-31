@@ -13,7 +13,7 @@ export default function EducationSection() {
     },
     {
       school: 'California Institute of Technology',
-      program: 'Simplilearn Coding Bootcamp',
+      program: 'Web Development Coding Bootcamp',
       description:
         'This intensive bootcamp focused on full-stack web development, algorithms, and real-world projects.',
       logo: '/assets/caltech-logo.png',
