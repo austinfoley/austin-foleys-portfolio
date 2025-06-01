@@ -15,7 +15,7 @@ export default function EducationSection() {
       school: 'California Institute of Technology',
       program: 'Web Development Coding Bootcamp',
       description:
-        'This intensive bootcamp focused on full-stack web development, algorithms, and real-world projects.',
+        'This intensive bootcamp focused on full-stack web development, API integration, and real-world projects.',
       logo: '/assets/caltech-logo.png',
     },
     {

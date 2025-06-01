@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { BlogPosts } from 'app/components/posts'
 import SkillsSection from 'app/skills/page'
 import EducationSection from 'app/education/page'
+import ProjectsPage from './projects/page'
+import Link from 'next/link'
 
 export default function Page() {
   return (
@@ -10,7 +12,7 @@ export default function Page() {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-10">
         <div className="flex-shrink-0">
           <Image
-            src="/profile/me.png" // Make sure this path exists in /public/images/
+            src="/profile/me.png" 
             alt="Austin Foley"
             width={1000}
             height={1000}
@@ -33,8 +35,7 @@ export default function Page() {
       <EducationSection />
 
       {/* Projects */}
-      <h2 className="mt-12 mb-4 text-2xl font-semibold tracking-tight">What I'm Working On</h2>
-      <BlogPosts />
+      <ProjectsPage />
 
       {/* Skills */}
       <h2 className="mt-12 mb-4 text-2xl font-semibold tracking-tight">Technical Skills</h2>
