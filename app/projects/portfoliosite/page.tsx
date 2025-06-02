@@ -17,20 +17,21 @@ return(
           <h3 className="mb-2.5 font-bold tracking-tight">Created with NextJS</h3>
           <br></br>
           <p>
-            NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS
-            NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS
-            NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS
-            NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS NextJS
+            Austin built this portfolio using Next.js, leveraging its App Router for structured routing
+             and fast performance. He used MDX for dynamic blog content and static generation to improve 
+             SEO and load times. The site reflects modern web standards with responsive design, dark mode,
+             and modular components.
+
           </p>
           <br></br>
           <br></br>
           <h3 className="mb-2.5 font-bold tracking-tight">Deployed Through Vercel</h3>
           <br></br>
           <p>
-            Includes managing and making sure all dependencies are functioning as intended.
-            Creating production builds with Node.js to make sure the application is able to run effectively
-            when deployed.
-            Pushing updates to Github to allow for Vercel to deploy.
+            Austin managed project dependencies to ensure all packages functioned correctly throughout development.
+             He created production builds using Node.js to optimize the application for deployment. Updates were 
+             version-controlled with GitHub, triggering seamless deployments through Vercel.
+
 
           </p>
         </div>

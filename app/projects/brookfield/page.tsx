@@ -19,7 +19,10 @@ return(
           <br></br>
           <p>
             In his hands-on role, Austin contributed to QA testing with Jira, 
-            helping identify and resolve issues before deployment.
+            helping identify and resolve issues before deployment. These QA Jira tasks would include 
+            verifying functionality of single components of a webpage, loading the webpage on different
+            browsers and operating systems with BrowserStack, and writing bug tickets where applicable
+            with explanations of bug replication.
 
  
           </p>

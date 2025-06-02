@@ -41,8 +41,8 @@ return(
 
             For Austin, thanks to his background in Java from the Caltech Coding Bootcamp, he was able to design a 
             structural backend to be able to collect order information and send it to a database to be able to organize and
-            process orders. 
-
+            process orders. This includes creating a DAO and MySQL driver to connect to a database and hosting on a server using
+            a Spring framework. 
           </p>
         </div>
                   

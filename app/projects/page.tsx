@@ -3,47 +3,37 @@ import Link from 'next/link'
 
 const projectItems = {
   '/projects/brookfield': {
-    name: 'brookfield',
+    name: 'Brookfield',
   },
   '/projects/portfoliosite': {
-    name: 'portfoliosite',
+    name: 'Portfolio Site',
   },
   '/projects/coffeeapp': {
-    name: 'coffeeapp',
+    name: 'Coffee App',
   },
 }
 
 export const metadata = {
-  title: 'Blog',
-  description: 'Read my blog.',
+  title: 'Projects',
+  description: 'Learn more about my projects.',
 }
 
 export default function ProjectsPage() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Learn about what I'm working on:</h1>
-          <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
-        <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-          id="nav"
-        >
-          <div className="flex flex-row space-x-0 pr-10">
-            {Object.entries(projectItems).map(([path, { name }]) => {
-              return (
-                <Link
-                  key={path}
-                  href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
-                >
-                  {name}
-                </Link>
-              )
-            })}
-          </div>
-        </nav>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {Object.entries(projectItems).map(([path, { name }]) => (
+          <Link
+            key={path}
+            href={path}
+            className="block p-4 rounded-xl border border-neutral-200 dark:border-neutral-700 hover:shadow-md hover:border-neutral-300 dark:hover:border-neutral-500 transition-all bg-white dark:bg-neutral-900"
+          >
+            <p className="text-lg font-medium text-neutral-900 dark:text-neutral-100">{name}</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">View project →</p>
+          </Link>
+        ))}
       </div>
-    </aside>
     </section>
   )
 }
